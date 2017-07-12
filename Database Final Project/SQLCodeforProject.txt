@@ -1,0 +1,27 @@
+﻿CREATE TABLE Customer(
+custID INT,
+fName VARCHAR( 15 ) ,
+lName VARCHAR( 15 ) ,
+address VARCHAR( 50 ) ,
+city VARCHAR( 20 ) ,
+email VARCHAR( 50 ),
+PRIMARY KEY (custID)
+)
+
+
+CREATE TABLE Part(
+partID INT,
+partName VARCHAR( 15 ) ,
+manufacturer VARCHAR( 30 ) ,
+price DECIMAL( 7, 2 ),
+PRIMARY KEY (partID)
+)
+
+
+CREATE TABLE Orders(
+shipID INT, 
+custID INT,
+partID INT,
+totalPrice DECIMAL( 7, 2 ),
+PRIMARY KEY (shipID)
+)

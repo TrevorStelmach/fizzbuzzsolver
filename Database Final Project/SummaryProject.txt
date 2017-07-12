@@ -1,0 +1,4 @@
+﻿The title of my database is "Trevor's Auto Parts Database."  This will is the database for my fictional auto parts store.  Different tables included in the database include parts, customers, and orders.  The aim of the database is to track orders, as well as customer and part information.  I would have liked to find out how to alert myself as to when stock levels are running low for certain parts.
+
+
+Fields in the part table include the part name, manufacturer and price.  Users could select all parts by a certain manufacturer, or parts costing less than $50.00.  The customer table contains all of the customer’s information.  The primary keys are respectively, partID and custID.  These two tables are then combined in the Order table.  The order table has shipID, along with the partID and custID from the other two tables.  It also has the total price which includes the price of the part, plus shipping and taxes.
